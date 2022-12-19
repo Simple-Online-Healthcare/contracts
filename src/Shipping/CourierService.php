@@ -13,4 +13,13 @@ interface CourierService
      * @return ShipmentResult
      */
     public function send(OrderShipment $orderShipment): ShipmentResult;
+
+    /**
+     * Request the tracking history by the tracking number.
+     *
+     * @param string $trackingNumber
+     *
+     * @return array
+     */
+    public function track(string $trackingNumber): array;
 }
