@@ -19,7 +19,7 @@ interface CourierService
      *
      * @param string $trackingNumber
      *
-     * @return array
+     * @return TrackingHistory
      */
-    public function track(string $trackingNumber): array;
+    public function track(string $trackingNumber): TrackingHistory;
 }
