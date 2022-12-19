@@ -1,8 +1,6 @@
 <?php
 
-namespace SimpleOnlineHealthcare\Contracts;
-
-use SimpleOnlineHealthcare\Contracts\Shipping\OrderShipment;
+namespace SimpleOnlineHealthcare\Contracts\Shipping;
 
 interface CourierService
 {

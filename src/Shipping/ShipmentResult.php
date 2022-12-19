@@ -1,6 +1,6 @@
 <?php
 
-namespace SimpleOnlineHealthcare\Contracts;
+namespace SimpleOnlineHealthcare\Contracts\Shipping;
 
 interface ShipmentResult
 {
