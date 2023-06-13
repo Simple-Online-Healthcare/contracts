@@ -1,5 +1,5 @@
 {
-  "name": "simpleonlinehealthcare/contracts",
+  "name": "simple-online-healthcare/contracts",
   "description": "Contracts for the Simple Online Healthcare applications",
   "type": "library",
   "license": "proprietary",
@@ -16,12 +16,7 @@
   },
   "require": {},
   "require-dev": {
-    "laravel/framework": "^6.2",
-    "friendsofphp/php-cs-fixer": "^2.16"
-  },
-  "scripts": {
-    "php-cs-fixer:dummy": "php-cs-fixer fix --config=./.php_cs --dry-run",
-    "php-cs-fixer:real": "php-cs-fixer fix --config=./.php_cs"
+    "laravel/framework": "^6.2"
   },
   "config": {
     "platform": {
